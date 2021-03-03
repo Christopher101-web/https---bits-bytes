@@ -1,0 +1,463 @@
+/*========== HEADER ==========*/
+
+.header {
+    background-color: darkgrey;
+    width: 100%;
+    height: 50px;
+    top: 0; 
+    width: 100%;
+    height: 50px;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}    
+    
+.header i {
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: #ffffff;
+}
+
+.header img {
+    width: 300px;
+    padding-top: 14px;
+    padding-right: 25px;
+}
+
+
+/*========================= BODY =========================*/
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    
+    height: 100%
+}
+
+.body-home {
+    background-image: url('images/new-background%20port.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-categories {
+    background-image: url('images/wood-background%20port.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========== HOME PAGE ==========*/
+
+#home-logo-img {
+    display: block;
+    margin: auto;
+    border: 5px solid black;
+    margin-top: 25px;
+   
+}
+
+#home-logo-text {
+    width: 380px;
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+
+
+/*===== HOME PAGE MENU =====*/
+
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid black;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+    padding-top: 15px;
+}
+
+/*========== CATEGORIES PAGE ==========*/
+
+#categories {
+    padding-top: 125px;
+}
+
+/*===== CATEGORIES PAGE MENU =====*/
+
+.categories-list a {
+    text-decoration: none;
+}
+
+.categories-list-item {
+    border: 5px solid #ffffff;
+    margin: 10px auto;
+    width: 80%;
+    display: block;
+}
+
+.categories-list-item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.categories-list-item i {
+    float: right;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.categories-list-item p {
+    font-weight: 15px;
+    font-style: italic;
+    color: #ffffff;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+.categories-list-icon i {
+    margin-left: 49%;
+    margin-right: 49%;
+    font-size: 35px;
+    color: #ffffff;
+}   
+    
+/*========== MEALS PAGE ==========*/
+
+#meals {
+    padding-top: 50px;
+}
+
+/*===== MEALS DETAILS =====*/
+
+.meals-details img {
+    width: 100%;
+    border: 5px solid darkgray;
+}
+
+.meals-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid darkgray;
+    margin: 10px;
+    padding: 5px;
+    height: 60px;
+    
+}
+
+.meals-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.meals-details-info h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+    
+}
+
+.meals-details-info p {
+    font-size: 15px;
+    display: inline-block;
+}
+
+/*========== MEALS DETAILS FORM ==========*/
+
+textarea {
+    width: 96%;
+    height: 60px;
+    margin: 10px;
+    border: 5px solid darkgray;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.button {
+  text-decoration: none;
+    color: blue;
+    font-weight: 800;
+    font-size: 14px;
+    font-family: Helvetica sans-serif;
+    background-image: url('images/menu-button.gif');
+    background-repeat: no-repeat;
+    display: block;
+    width: 128px;
+    height: 25px;
+    padding-left: 38px;
+    padding-top: 5px;
+    margin: auto;
+}
+
+/*========== FEEDBACK PAGE ==========*/
+
+.feedback img {
+    width: 100%;
+    border: 5px solid black;
+}
+
+/*===== FEEDBACK PAGE DETAILS =====*/
+
+#feedback-logo-img {
+    display: block;
+    margin: auto;
+    border: 5px solid black;
+}
+
+#feedback-logo-text {
+    width: 390px;
+    display: block;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.feedback-details h1 {
+    text-align: center;
+    padding: 5px;
+}
+
+.feedback-details h4 {
+    text-align: center;
+}   
+    
+/*===== FEEDBACK PAGE DETAILS FORM =====*/
+
+.feedback-details input {
+    width: 96%;
+    height: 65px;
+    margin: 10px;
+    border: 5px solid darkgrey;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.feedback-details select {
+    height: 25px;
+    margin: 12px 0;
+    border: 5px solid darkgrey;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.row{
+    height: 40px;
+}
+
+.row a{
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.row a:hover{
+    color: crimson;
+}
+    
+/*========== MESSAGE RECIEVED PAGE ==========*/
+
+.message-recieved {
+    padding-top: 50px;
+}
+
+.message-recieved img {
+    width: 100%;
+    border: 5px solid darkgray;
+}
+
+.message-recieved i {
+    margin-left: 49%;
+    margin-right: 49%;
+    font-size: 40px;
+    padding-top: 50px;
+}   
+   
+/*===== MESSAGE RECIEVED DETAILS =====*/
+
+.message-recieved-details h1 {
+    text-align: center;
+}
+
+.message-recieved-details h4 {
+    text-align: center;
+}
+
+/*==================== FOOTER ====================*/
+
+.footer p{
+    text-align: center;
+}
+
+/*========== RESPONSIVE LAYOUT ==========*/
+
+@media only screen and (min-width: 600px) {
+     #meals {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .body-home {
+        width: 80%;
+        margin: auto;
+    }
+    
+    #categories {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .feedback {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .message-recieved {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .feedback-details {
+        width: 80%;
+        margin: auto;
+    }
+} 
+    
+@media only screen and (min-width: 1000px) {
+     #meals {
+        width: 60%;
+        margin: auto;
+    }
+    
+     .body-home {
+        width: 60%;
+        margin: auto;
+    }
+    
+    #categories {
+        width: 60%;
+        margin: auto;
+    }
+    
+    .feedback {
+        width: 60%;
+        margin: auto;
+    }
+    
+    .message-recieved {
+        width: 60%;
+        margin: auto;
+    }
+    
+    .feedback-details {
+        width: 60%;
+        margin: auto;
+    }
+    
+}   
+    
+@media only screen and (min-width: 1500px) {
+      #meals {
+        width: 40%;
+        margin: auto;
+    }
+    
+     .body-home {
+        width: 40%;
+        margin: auto;
+    }
+    
+    #categories {
+        width: 40%;
+        margin: auto;
+    }
+    
+    .feedback {
+        width: 40%;
+        margin: auto;
+    }
+    
+    .message-recieved {
+        width: 40%;
+        margin: auto;
+    }
+    
+    .feedback-details {
+        width: 40%;
+        margin: auto;
+    }
+    
+}  
+
+@media only screen and (min-width: 720px) {
+    .body-home {
+        background-image: url('images/new-background%20land.jpg');
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .body-categories {
+        background-image: url('images/wood-background%20land.jpg');
+    }
+}
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+    
+ 
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
